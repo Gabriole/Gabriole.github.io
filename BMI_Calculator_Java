@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .cover {
+      background-image: url('bmi_calculator_interface.png');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .cover h1 {
+      font-size: 4em;
+      margin-bottom: 20px;
+    }
+    .cover p {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
+    .cover button {
+      background-color: #48CAE4;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+    section {
+      padding: 50px 20px;
+    }
+    .bmi-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .bmi-form input {
+      margin: 10px;
+      padding: 10px;
+      width: 200px;
+    }
+    .bmi-form button {
+      background-color: #48CAE4;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 1.5em;
+    }
+  </style>
+  <script>
+    function calculateBMI() {
+      const weight = parseFloat(document.getElementById('weight').value);
+      const height = parseFloat(document.getElementById('height').value);
+      if (isNaN(weight) || isNaN(height) || height === 0) {
+        alert("Please enter valid numbers for weight and height.");
+        return;
+      }
+
+      const bmi = (weight / (height * height)).toFixed(2);
+      let category = "";
+
+      if (bmi < 18.5) {
+        category = "Underweight";
+      } else if (bmi >= 18.5 && bmi <= 24.9) {
+        category = "Normal weight";
+      } else if (bmi >= 25 && bmi <= 29.9) {
+        category = "Overweight";
+      } else {
+        category = "Obese";
+      }
+
+      document.getElementById('result').innerText = `Your BMI is ${bmi} (${category})`;
+    }
+  </script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#section1">About</a>
+    <a href="#section2">Features</a>
+  </nav>
+</header>
+
+<div class="cover">
+  <div>
+    <h1>BMI Calculator</h1>
+    <p>A web-based application to calculate and categorize your BMI.</p>
+    <div class="bmi-form">
+      <input type="number" id="weight" placeholder="Weight (in kg)" />
+      <input type="number" id="height" placeholder="Height (in meters)" />
+      <button onclick="calculateBMI()">Calculate BMI</button>
+      <div id="result"></div>
+    </div>
+  </div>
+</div>
+
+<section id="section1">
+  <h2>About the Project</h2>
+  <p>This project, BMI Calculator, was developed to help individuals quickly calculate their BMI by providing weight and height inputs and categorizes them into different health ranges.</p>
+</section>
+
+<section id="section2">
+  <h2>Key Features</h2>
+  <div class="features">
+    <div class="feature">
+      <img src="bmi-calc.jpg" alt="BMI Calculation">
+      <h3>BMI Calculation</h3>
+      <p>The application calculates the BMI value based on user inputs for weight (in kilograms) and height (in meters).</p>
+    </div>
+    <div class="feature">
+      <img src="bmi-categories.jpg" alt="BMI Categories">
+      <h3>BMI Categories</h3>
+      <p>Once the BMI is calculated, the application categorizes the user into Underweight, Normal weight, Overweight, or Obese.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 Your Name</p>
+</footer>
+
+</body>
+</html>
