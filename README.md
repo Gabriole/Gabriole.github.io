@@ -1,5 +1,5 @@
 <a name="top"></a>
-[![BMI Calculator](https://gabriole.github.io/BMICalculation.jpg)](https://gabriole.github.io)
+[![BMI Calculator](https://gabriole.github.io)](https://gabriole.github.io)
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-Windows%2C%20Linux%2C%20macOS-green.svg)](https://gabriole.github.io)
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](https://gabriole.github.io)
