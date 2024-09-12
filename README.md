@@ -37,6 +37,9 @@ Enter your weight (in kilograms) and height (in meters).
 Click "Calculate BMI" to receive your BMI score and category classification.
 
 
+![Screenshot_1](https://github.com/user-attachments/assets/21e80319-8dd1-462a-b6b4-595e9602c092)
+
+
 ## 💡 Contributing
 
 We welcome contributions from the community! To get involved:
