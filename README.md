@@ -6,7 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/linkedin-Ismaïl%20Mouhtaram-blue)](https://www.linkedin.com/in/ismaïl-mouhtaram-02930228a/)
 
 ⭐ **Star me on GitHub** — it motivates me a lot!  
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/bmi-calculator)](https://github.com/yourusername/bmi-calculator)
+[![GitHub stars](https://img.shields.io/github/stars/Gabriole/Gabriole.github.io)](https://github.com/Gabriole/Gabriole.github.io)
 
 ---
 
