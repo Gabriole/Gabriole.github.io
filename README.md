@@ -35,3 +35,41 @@ Visit the [BMI Calculator](https://gabriole.github.io)
 Enter your weight (in kilograms) and height (in meters).
 
 Click "Calculate BMI" to receive your BMI score and category classification.
+
+
+## 💡 Contributing
+
+We welcome contributions from the community! To get involved:
+
+Fork the repository on GitHub.
+
+Create a new branch:
+
+```bash
+git checkout -b feature-branch
+```
+
+Commit your changes:
+
+```bash
+git commit -m "Description of changes"
+```
+
+Push the changes to your fork:
+
+```bash
+git push origin feature-branch
+```
+
+Submit a Pull Request on GitHub with a detailed explanation of your changes.
+
+
+
+
+
+
+
+
+
+
+
