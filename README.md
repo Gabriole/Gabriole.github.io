@@ -63,6 +63,39 @@ git push origin feature-branch
 
 Submit a Pull Request on GitHub with a detailed explanation of your changes.
 
+## 🔗 License
+
+This project is licensed under the MIT License. See the [LISENCE](https://github.com/Gabriole/Gabriole.github.io/blob/main/LICENSE) file for more details.
+
+## 📞 Contact
+
+For any questions, suggestions, or feedback, feel free to reach out to:
+
+Author: Ismaïl Mouhtaram
+
+LinkedIn: [Ismaïl Mouhtaram](https://www.linkedin.com/in/ismaïl-mouhtaram-02930228a/)
+
+
+GitHub: [Gabriole](https://github.com/Gabriole)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
