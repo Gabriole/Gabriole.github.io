@@ -26,3 +26,8 @@ For more information, connect with me on [LinkedIn](https://www.linkedin.com/in/
 
 ```bash
 git clone https://github.com/Gabriole/Gabriole.github.io
+```
+
+## 📋 Usage
+
+
