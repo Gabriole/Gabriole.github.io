@@ -30,4 +30,6 @@ git clone https://github.com/Gabriole/Gabriole.github.io
 
 ## 📋 Usage
 
-
+Visit the [BMI Calculator](https://gabriole.github.io)
+Enter your weight (in kilograms) and height (in meters).
+Click "Calculate BMI" to receive your BMI score and category classification.
